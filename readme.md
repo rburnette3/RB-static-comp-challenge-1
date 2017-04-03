@@ -28,8 +28,8 @@ Hex Colors used:
 
 #### Original Comp
 
-![original comp](img.file/Screen Shot 2017-04-03 at 5.06.00 AM.png)
+![original comp](https://github.com/rburnette3/RB-static-comp-challenge-1/blob/master/img.file/Screen%20Shot%202017-04-03%20at%205.06.00%20AM.png)
 
 #### Final Comp
 
-![original comp](img.file/Screen Shot 2017-04-03 at 5.22.09 AM.png)
+![original comp](https://github.com/rburnette3/RB-static-comp-challenge-1/blob/master/img.file/Screen%20Shot%202017-04-03%20at%205.22.09%20AM.png)
