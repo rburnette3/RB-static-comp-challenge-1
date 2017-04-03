@@ -71,6 +71,7 @@ margin: auto;
 width:50px;
 }
 
+
 .icon3{
   padding-bottom: 5px;
 }
@@ -116,7 +117,6 @@ width:50px;
 }
 
 aside{
-  /*background-color: teal;*/
   background-image: url(img.file/MrT.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -185,7 +185,8 @@ aside{
   margin: auto;
   }
   p{
-    margin: auto;
+    margin-bottom: 20px;
+    margin-top: -15px;
     text-align: center;
   }
 
@@ -195,8 +196,8 @@ aside{
     color: white;
     width: 25%;
     padding: 10px;
-    margin: 10px 0 0 25px;
-    
+    margin: 10px 0px 20px 92px;
+
   }
 
   .small-photo-box{
