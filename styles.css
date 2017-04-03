@@ -9,8 +9,6 @@ body, html, section, main, div, aside {
   padding: 0;
 }
 
-
-
 section{
   display: flex;
   flex-wrap: wrap;
@@ -24,30 +22,32 @@ section{
   color: white;
   display:flex;
   flex-direction: column;
+  justify-content: center;
   height: 33.333%;
   width: 66.666%;
-  justify-content: center;
 }
+
 h1{
 font-size: 32px;
-padding: 10px;
-margin: 0 0 0 10px;
+margin: 15px 0px 20px 25px;
 }
-p{
-  padding: 0 25px;
 
+p{
+  margin: 0px 0px 0px 30px;
+  line-height:1.5;
 }
 
 button{
-
   background-color: #768593;
   border: 3px solid #fff;
-
   color: white;
+  font-size: 14px;
   width: 25%;
   padding: 10px;
   margin: 10px 0 0 25px;
+  text-transform: uppercase;
 }
+
 .box{
   display: flex;
   justify-content: center;
@@ -71,30 +71,38 @@ margin: auto;
 width:50px;
 }
 
-.box2{
+.icon3{
+  padding-bottom: 5px;
+}
+
+.icon6{
+  padding-bottom: 5px;
+}
+.icon8{
+  padding-bottom: 2px;
+}
+
+.profile-box{
   background-color: #BF594B;
 }
 
-
-
-
-.box3{
-  background-color: #324086;
+.experience-box{
+  background-color: #BF594B;
 }
 
-.box4{
+.education-box{
   background-color: #8B6D69;
 }
 
-.box5{
-  background-color: #768593;
+.blog-box{
+  background-color: #324086;
 }
 
-.box6{
+.social-box{
   background-color: #453231;
 }
 
-.box7{
+.contact-box{
   background-color: #324086;
 }
 
@@ -108,7 +116,7 @@ width:50px;
 }
 
 aside{
-  background-color: teal;
+  /*background-color: teal;*/
   background-image: url(img.file/MrT.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,14 +127,20 @@ aside{
 
 @media screen and (max-width: 960px){
 
+  h1{
+    padding: 40 10 0 25px;
+  }
 
+  p{
+    padding: 0 35;
+  }
   section{
     display: inline-flex;
     flex-wrap: wrap;
     float:left;
-    /*height: 100%;*/
     width: 100%;
   }
+
   aside{
     display: none;
   }
@@ -134,20 +148,17 @@ aside{
     height:33.333%
   }
 
-  .box2{
-
+  .small-photo-box{
     background-image: url(img.file/MrT.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-color: #BF594B;
-    border-style: 2px solid;
   }
   .icon2{
     display:none;
   }
   .portfolio{
-
-    background-color: #BF594B;
+    background-color: #768593;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,4 +166,65 @@ aside{
     height: 33.333%;
     width: 100%;
   }
+}
+@media screen and (max-width: 600px){
+
+  .intro-box{
+    background-color: #768593;
+    color: white;
+    /*display:flex;*/
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  h1{
+  font-size: 24px;
+  padding: 10px;
+  margin: auto;
+  }
+  p{
+    margin: auto;
+    text-align: center;
+  }
+
+  button{
+    background-color: #768593;
+    border: 3px solid #fff;
+    color: white;
+    width: 25%;
+    padding: 10px;
+    margin: 10px 0 0 25px;
+    
+  }
+
+  .small-photo-box{
+    display:none;
+  }
+
+  .experience-box{
+    background-color: #453231;
+  }
+  .blog-box{
+    background-color: #BF594B;
+  }
+
+  .education-box{
+    background-color: #324086;
+  }
+
+  .social-box{
+    background-color: #8B6B69;
+  }
+
+  .box{
+    height:25%;
+    width:50%;
+  }
+  .portfolio{
+    display:flex;
+    height: 25%;
+    width: 100%;
+    background-color: #768593;
 }
